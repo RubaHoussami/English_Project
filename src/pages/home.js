@@ -11,7 +11,7 @@ import slide4 from "../pictures/slide4.png";
 import news from "../pictures/news.png";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import TextField from "@mui/material/TextField";
-import "react-slideshow-image/dist/styles.css";
+import 'react-slideshow-image/dist/styles.css';
 
 function Home() {
   const [firstName, setFirstName] = useState("");

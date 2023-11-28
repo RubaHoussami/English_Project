@@ -139,7 +139,12 @@ const handleLikeClick = (postId,timestamp,username) => {
         // Handle any error that occurred
         console.error('Error calling the Lambda function:', error);
       });
-  }
+  };
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      submitComment();
+    } 
+  };
 
   return (
     <>
@@ -198,6 +203,7 @@ const handleLikeClick = (postId,timestamp,username) => {
             <Form>
               <div>
                 <Form.Control type="text" id="commentText" style={{ paddingLeft:"1rem",borderRadius:"1.2rem", fontFamily: "Quicksand", width: "60em", marginLeft: "3rem", height: "6rem", fontSize: "1rem", marginTop: "2.5rem", marginBottom: "-1.85rem" }}
+                  onKeyDown={handleKeyDown}
                   placeholder="New Comment Here" />
               </div>
               <div>

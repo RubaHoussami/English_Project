@@ -104,7 +104,7 @@ function SignUp() {
             style={{
               width: "37rem",
               height: "38rem",
-              backgroundColor: "#0F52BA",
+              backgroundColor: "#800000",
               borderRadius: "5rem",
             }}
           >

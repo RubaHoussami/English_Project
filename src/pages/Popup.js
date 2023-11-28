@@ -70,7 +70,7 @@ const Popup = ({ onClose, onNewPostCreated, onPopupClosed, username }) => {
       <div className="popup">
         <div
           className="popup-content"
-          style={{ backgroundColor: "#CD5C5C", borderRadius: "1.2rem" , width:"50rem", marginTop:"4.5rem"}}
+          style={{ backgroundColor: "#CD5C5C", borderRadius: "1.2rem" , width:"50rem", marginTop:"4rem"}}
         >
           <h1 style={{ color: "white", fontWeight: "bold" }}>
             Create a new post!
@@ -143,8 +143,8 @@ const Popup = ({ onClose, onNewPostCreated, onPopupClosed, username }) => {
                   width: "9.3rem",
                   marginLeft: "15rem",
                   borderRadius: "2rem",
-                  borderColor: "#0F52BA",
-                  backgroundColor: "#FADA5E",
+                  borderColor: "black",
+                  backgroundColor: "#cefad0",
                 }}
                 onClick={onClose}
               >
@@ -164,8 +164,8 @@ const Popup = ({ onClose, onNewPostCreated, onPopupClosed, username }) => {
                   width: "9.3rem",
                   marginLeft: "1rem",
                   borderRadius: "2rem",
-                  borderColor: "#0F52BA",
-                  backgroundColor: "#FADA5E",
+                  borderColor: "black",
+                  backgroundColor: "#cefad0",
                 }}
                 onClick={handlePostSubmit}
               >

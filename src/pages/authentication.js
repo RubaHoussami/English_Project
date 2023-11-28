@@ -72,7 +72,7 @@ function Authentication() {
           style={{
             width: "35rem",
             height: "33rem",
-            backgroundColor: "#D21F3C",
+            backgroundColor: "#800000",
             borderRadius: "5rem",
           }}
         >

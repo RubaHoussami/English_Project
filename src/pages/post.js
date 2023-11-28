@@ -144,7 +144,7 @@ const handleLikeClick = (postId,timestamp,username) => {
   return (
     <>
       <header>
-        <Container fluid="true" className="p-3" style={{ height: "7.5rem", maxWidth: "100rem", backgroundColor: "#0F52BA", padding: "1.1rem", display: "flex" }}>
+        <Container fluid="true" className="p-3" style={{ height: "7.5rem", maxWidth: "100rem", backgroundColor: "#4B5320", padding: "1.1rem", display: "flex" }}>
           <ArrowBackIosIcon style={{ height: "5rem", width: "6rem", cursor: "pointer", color: "#FADA5E" }}
             onClick={handleClick}>
           </ArrowBackIosIcon>
@@ -167,7 +167,7 @@ const handleLikeClick = (postId,timestamp,username) => {
         </Container>
       </header>
 
-      <Card style={{ marginLeft: "6.2rem", marginRight: "6.2rem", backgroundColor: "#FADA5E", borderRadius: "1.7rem", marginTop: "2rem" }}>
+      <Card style={{ marginLeft: "6.2rem", marginRight: "6.2rem", backgroundColor: "#FF7F7F", borderRadius: "1.7rem", marginTop: "2rem" }}>
         <Card.Body>
           <div className="row">
             <div className="col-sm-6">
@@ -179,7 +179,7 @@ const handleLikeClick = (postId,timestamp,username) => {
 
       <Container style={{ marginTop: "2rem" }}>
         {comments.map((comment, index) => (
-          <Card key={index} className={`mt-4 ${index === comments.length - 1 ? 'last-post2' : ''}`} style={{ marginLeft: "-5.5rem", marginRight: "6.2rem", backgroundColor: "#8CC4FF", borderRadius: "2rem", marginTop: "-1.3rem", width: "83rem" }}>
+          <Card key={index} className={`mt-4 ${index === comments.length - 1 ? 'last-post2' : ''}`} style={{ marginLeft: "3rem", marginRight: "6.2rem", backgroundColor: "#CD5C5C", borderRadius: "2rem", marginTop: "-1.3rem", width: "66rem" }}>
             <Card.Body>
               <div className="row">
                 <div className="col-sm-6">
@@ -193,16 +193,16 @@ const handleLikeClick = (postId,timestamp,username) => {
       </Container>
 
       <footer className="footer" style={{ position: "fixed", bottom: 0, width: "100%" }}>
-        <Container style={{ height: "10rem", maxWidth: "100rem", backgroundColor: "#0F52BA" }}>
+        <Container style={{ height: "10rem", maxWidth: "100rem", backgroundColor: "#4B5320" }}>
           <div  style={{ display: "flex", alignItems: "center" }}>
             <Form>
               <div>
-                <Form.Control type="text" id="commentText" style={{ paddingLeft:"1rem",borderRadius:"1.2rem", fontFamily: "Quicksand", width: "68rem", marginLeft: "6rem", marginRight: "5rem", height: "6rem", fontSize: "1rem", marginTop: "2.5rem", marginBottom: "-1.85rem" }}
+                <Form.Control type="text" id="commentText" style={{ paddingLeft:"1rem",borderRadius:"1.2rem", fontFamily: "Quicksand", width: "60em", marginLeft: "3rem", height: "6rem", fontSize: "1rem", marginTop: "2.5rem", marginBottom: "-1.85rem" }}
                   placeholder="New Comment Here" />
               </div>
               <div>
-                <Button style={{cursor:"pointer", width: "9.3rem", marginLeft: "76.5rem", borderRadius: "2rem", borderColor: "#0F52BAA", backgroundColor: "white" ,marginTop:"-7rem"}} onClick={submitComment} >
-                  <SendIcon style={{ height: "5.8rem", width: "5rem", color: "#0F52BA", marginLeft: "1rem",marginTop:"0.2rem" }}> </SendIcon>
+                <Button style={{cursor:"pointer", width: "8rem", marginLeft: "66rem", borderRadius: "2rem", borderColor: "#4B5320", backgroundColor: "white" ,marginTop:"-7rem"}} onClick={submitComment} >
+                  <SendIcon style={{ height: "5.8rem", width: "5rem", color: "#4B5320", marginLeft: "1rem",marginTop:"0.2rem" }}> </SendIcon>
                 </Button>
                 </div>
             </Form>

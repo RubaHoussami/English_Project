@@ -48,7 +48,7 @@ const DonationPopup = ({
     <>
       <div className={`popup2 ${isOpen ? "open" : ""}`}>
         <div className="popup2-content" style={{ height: "30rem" }}>
-          <h2 style={{ color: "#0F52BA" }}>Donation Form</h2>
+          <h2 style={{ color: "#800000" }}>Donation Form</h2>
           <TextField
             required
             id="outlined-required"
@@ -138,8 +138,8 @@ const DonationPopup = ({
               marginLeft: "0rem",
               width: "6rem",
               height: "3rem",
-              backgroundColor: "#0F52BA",
-              borderColor: "#0F52BA",
+              backgroundColor: "#800000",
+              borderColor: "#800000",
               borderRadius: "0.5rem",
               fontFamily: "Lato",
               fontSize: "1rem",
@@ -160,8 +160,8 @@ const DonationPopup = ({
               cursor: "pointer",
               width: "6rem",
               height: "3rem",
-              backgroundColor: "#0F52BA",
-              borderColor: "#0F52BA",
+              backgroundColor: "#800000",
+              borderColor: "#800000",
               borderRadius: "0.5rem",
               fontFamily: "Lato",
               fontWeight: "bold",

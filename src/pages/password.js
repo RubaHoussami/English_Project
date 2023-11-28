@@ -284,7 +284,7 @@ function Password() {
                 style={{
                   marginTop: "5rem",
                   marginLeft: "3rem",
-                  color: "#EE9626",
+                  color: "#FFFFFF",
                   width: "80rem",
                 }}
               >
@@ -385,7 +385,7 @@ function Password() {
                     fontFamily: "Lato",
                     fontWeight: "bold",
                     fontSize: "1rem",
-                    color: "#F9A603",
+                    color: "#FF7F7F",
                   }}
                 >
                   Submit
@@ -400,8 +400,8 @@ function Password() {
           >
             <h1
               style={{
-                marginLeft: "15rem",
-                color: "#0F52BA",
+                marginLeft: "11rem",
+                color: "#FFFFFF",
                 marginTop: "5rem",
               }}
             >
@@ -416,7 +416,7 @@ function Password() {
                   } post-card`}
                   style={{
                     cursor: "pointer",
-                    marginLeft: "-25rem",
+                    marginLeft: "-21rem",
                     marginRight: "0rem",
                     backgroundColor: "white",
                     borderRadius: "2rem",
@@ -510,8 +510,8 @@ function Password() {
                                 cursor: "pointer",
                                 width: "5rem",
                                 height: "1.5rem",
-                                backgroundColor: "#0F52BA",
-                                borderColor: "#0F52BA",
+                                backgroundColor: "#800000",
+                                borderColor: "#800000",
                                 borderRadius: "0.4rem",
                                 fontFamily: "Lato",
                                 fontWeight: "bold",

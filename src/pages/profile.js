@@ -163,7 +163,7 @@ function Profile() {
           style={{
             height: "6rem",
             maxWidth: "100rem",
-            backgroundColor: "#0F52BA",
+            backgroundColor: "#4B5320",
             padding: "1.1rem",
             pointerEvents: "auto !important",
           }}
@@ -182,11 +182,11 @@ function Profile() {
             variant="outlined"
             placeholder="  Search"
             InputProps={{
-              startAdornment: <SearchIcon style={{ color: "#4EA4F3" }} />,
+              startAdornment: <SearchIcon style={{ color: "#800000" }} />,
               style: { borderRadius: "50rem" },
               inputProps: {
                 style: {
-                  color: "#4EA4F3",
+                  color: "#800000",
                   fontSize: "1.15rem",
                   fontFamily: "Quicksand",
                   fontWeight: "bold",
@@ -197,8 +197,8 @@ function Profile() {
               backgroundColor: "white",
               borderRadius: "50rem",
               borderColor: "white",
-              width: "55%",
-              marginLeft: "28%",
+              width: "60%",
+              marginLeft: "23%",
             }}
           />
         </Container>
@@ -209,7 +209,7 @@ function Profile() {
             alt="avatar"
             class="avatar-image"
             style={{
-              "--avatar-image-border-color": "#4EA4F3",
+              "--avatar-image-border-color": "#800000",
               marginLeft: "4.9rem",
               marginBottom: "3rem",
             }}
@@ -230,7 +230,7 @@ function Profile() {
           </div>
           <h5
             style={{
-              color: "#FADA5E",
+              color: "#8B0000",
               paddingLeft: "7rem",
               margin: "0",
               paddingTop: "0.4rem",
@@ -241,7 +241,7 @@ function Profile() {
           </h5>
           <h5
             style={{
-              color: "#FADA5E",
+              color: "#800000",
               paddingLeft: "7rem",
               margin: "0",
               paddingTop: "0.1rem",
@@ -251,7 +251,7 @@ function Profile() {
           </h5>
           <h5
             style={{
-              color: "#FADA5E",
+              color: "#800000",
               paddingLeft: "7rem",
               margin: "0",
               paddingTop: "0.1rem",
@@ -277,7 +277,7 @@ function Profile() {
                   display: "flex",
                   alignItems: "center",
                   marginTop: "-1.3rem",
-                  marginLeft: "1.5rem",
+                  marginLeft: "3rem",
                 }}
               >
                 <img
@@ -286,7 +286,7 @@ function Profile() {
                   className="small-image"
                   style={{ "--small-image-border-color": badgess[badge][2] }}
                 ></img>
-                <h4 style={{ color: "black", marginLeft: "4rem" }}>
+                <h4 style={{ color: "black", marginLeft: "3.5rem" }}>
                   {badgess[badge][1]}{" "}
                 </h4>
               </div>

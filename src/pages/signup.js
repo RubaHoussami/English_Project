@@ -103,7 +103,7 @@ function SignUp() {
           <Card
             style={{
               width: "37rem",
-              height: "42rem",
+              height: "38rem",
               backgroundColor: "#0F52BA",
               borderRadius: "5rem",
             }}
@@ -119,7 +119,7 @@ function SignUp() {
                   marginLeft: "2rem",
                   marginTop: "2.2rem",
                   width: "12rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderColor: "#FFFFFF",
                   borderRadius: "1.5rem",
                   fontFamily: "Lato",
@@ -136,7 +136,7 @@ function SignUp() {
                 onChange={handleInputChange}
                 style={{
                   width: "17.3rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderRadius: "1.5rem",
                   borderColor: "#FFFFFF",
                   fontFamily: "Lato",
@@ -158,7 +158,7 @@ function SignUp() {
                   marginLeft: "2rem",
                   marginTop: "1rem",
                   width: "31.5rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderColor: "#FFFFFF",
                   borderRadius: "1.5rem",
                   fontFamily: "Lato",
@@ -180,7 +180,7 @@ function SignUp() {
                   inputStyle={{
                     width: "10rem",
                     borderRadius: "2rem",
-                    height: "3.1rem",
+                    height: "2.8rem",
                     paddingLeft: "3.8rem",
                   }}
                   buttonStyle={{ paddingLeft: "0.5rem" }}
@@ -206,7 +206,7 @@ function SignUp() {
                   paddingLeft: "1rem",
                   marginLeft: "11.6rem",
                   width: "20rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderRadius: "1.5rem",
                   borderColor: "#FFFFFF",
                   fontFamily: "Lato",
@@ -224,7 +224,7 @@ function SignUp() {
                 style={{
                   marginLeft: "2rem",
                   width: "10rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderRadius: "1.5rem",
                   borderColor: "#FFFFFF",
                   fontFamily: "Lato",
@@ -251,7 +251,7 @@ function SignUp() {
                 style={{
                   marginLeft: "1rem",
                   width: "12rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderRadius: "1.5rem",
                   borderColor: "#FFFFFF",
                   fontFamily: "Lato",
@@ -291,7 +291,7 @@ function SignUp() {
                 style={{
                   marginLeft: "1rem",
                   width: "8.7rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderRadius: "1.5rem",
                   borderColor: "#FFFFFF",
                   fontFamily: "Lato",
@@ -323,7 +323,7 @@ function SignUp() {
                     paddingLeft: "1rem",
                     marginLeft: "2rem",
                     width: "14rem",
-                    height: "2.8rem",
+                    height: "2.5rem",
                     borderRadius: "1.5rem",
                     borderColor: "#FFFFFF",
                     fontFamily: "Lato",
@@ -339,7 +339,7 @@ function SignUp() {
                   style={{
                     marginLeft: "2rem",
                     width: "15rem",
-                    height: "3rem",
+                    height: "2.9rem",
                     borderRadius: "1.5rem",
                     borderColor: "#FFFFFF",
                     fontFamily: "Lato",
@@ -374,7 +374,7 @@ function SignUp() {
                   paddingLeft: "1rem",
                   marginLeft: "2rem",
                   width: "31.5rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderRadius: "1.5rem",
                   borderColor: "#FFFFFF",
                   fontFamily: "Lato",
@@ -393,7 +393,7 @@ function SignUp() {
                   paddingLeft: "1rem",
                   marginLeft: "2rem",
                   width: "31.5rem",
-                  height: "2.8rem",
+                  height: "2.5rem",
                   borderRadius: "1.5rem",
                   borderColor: "#FFFFFF",
                   fontFamily: "Lato",
@@ -441,8 +441,8 @@ function SignUp() {
                     style={{
                       cursor: "pointer",
                       marginTop: "3.7rem",
-                      width: "14rem",
-                      height: "5rem",
+                      width: "12rem",
+                      height: "4rem",
                       backgroundColor: "#FADA5E",
                       borderColor: "#FADA5E",
                       borderRadius: "2.3rem",
@@ -459,7 +459,7 @@ function SignUp() {
                 <p
                   style={{
                     fontSize: "0.9rem",
-                    marginTop: "-2rem",
+                    marginTop: "-2.5rem",
                     marginLeft: "18rem",
                   }}
                 >

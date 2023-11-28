@@ -142,7 +142,7 @@ function Password() {
           style={{
             height: "3.8rem",
             maxWidth: "100rem",
-            backgroundColor: "#0F52BA",
+            backgroundColor: "#4B5320",
             padding: "1.1rem",
           }}
         >
@@ -151,15 +151,15 @@ function Password() {
             alt="Logo"
             className="rounded-circle"
             style={{
-              border: "1px solid black",
+              border: "1px solid white",
               borderRadius: "50rem",
-              height: "9.7rem",
-              width: "9.7rem",
+              height: "9rem",
+              width: "9rem",
               marginLeft: "2%",
               marginBottom: "-8rem",
               marginTop: "-2rem",
               position: "relative",
-              zIndex: "4",
+              zIndex: "2",
             }}
           />
           <p
@@ -172,27 +172,27 @@ function Password() {
               fontSize: "3rem",
               paddingRight: "0rem",
               paddingBottom: "0rem",
-              marginLeft: "16rem",
+              marginLeft: "12rem",
               marginBottom: "-5.3rem",
             }}
           >
-            Cancer Connect
+            Palestine Thingy
           </p>
           <Button
             onClick={handleClick5}
             style={{
               cursor: "pointer",
-              marginTop: "0.7rem",
-              marginLeft: "47rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              marginTop: "1.6rem",
+              marginLeft: "39rem",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Home
@@ -203,15 +203,15 @@ function Password() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Donate
@@ -222,15 +222,15 @@ function Password() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             {" "}
@@ -242,15 +242,15 @@ function Password() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Sign in
@@ -261,15 +261,15 @@ function Password() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Sign up
@@ -421,7 +421,7 @@ function Password() {
                     backgroundColor: "white",
                     borderRadius: "2rem",
                     marginTop: "1rem",
-                    width: "39rem",
+                    width: "30rem",
                     top: index === 0 ? "1rem" : "auto",
                   }}
                 >
@@ -504,7 +504,7 @@ function Password() {
                             <Button
                               onClick={() => handleDonateClick(post.ID)}
                               style={{
-                                marginLeft: "31rem",
+                                marginLeft: "23rem",
                                 marginTop: "2rem",
                                 marginBottom: "1rem",
                                 cursor: "pointer",

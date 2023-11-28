@@ -59,7 +59,7 @@ function Authentication() {
   };
   return (
     <>
-      <style>{"body { background-color: #FFFFE0; }"}</style>
+      <style>{"body { background-color: #cefad0; }"}</style>
       <Container
         style={{
           display: "flex",
@@ -72,7 +72,7 @@ function Authentication() {
           style={{
             width: "35rem",
             height: "33rem",
-            backgroundColor: "#0F52BA",
+            backgroundColor: "#D21F3C",
             borderRadius: "5rem",
           }}
         >

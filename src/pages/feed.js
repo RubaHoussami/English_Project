@@ -220,7 +220,7 @@ function Feed() {
           style={{
             height: "6rem",
             maxWidth: "100rem",
-            backgroundColor: "#0F52BA",
+            backgroundColor: "#4B5320",
             padding: "1.1rem",
           }}
         >
@@ -230,10 +230,10 @@ function Feed() {
             className="rounded-circle logo "
             style={{
               cursor: "pointer",
-              border: "1px solid black",
+              border: "1px solid white",
               borderRadius: "50rem",
-              height: "9.7rem",
-              width: "9.7rem",
+              height: "9rem",
+              width: "9rem",
               marginLeft: "2%",
               marginBottom: "-0.3%",
               marginTop: "-0.4rem",
@@ -246,11 +246,11 @@ function Feed() {
             variant="outlined"
             placeholder="  Search"
             InputProps={{
-              startAdornment: <SearchIcon style={{ color: "#4EA4F3" }} />,
+              startAdornment: <SearchIcon style={{ color: "#800000" }} />,
               style: { borderRadius: "50rem" },
               inputProps: {
                 style: {
-                  color: "#4EA4F3",
+                  color: "#800000",
                   fontSize: "1.15rem",
                   fontFamily: "Quicksand",
                   fontWeight: "bold",
@@ -268,18 +268,19 @@ function Feed() {
           <Button
             onClick={() => handleClick3(username)}
             style={{
-              height: "3.3rem",
+              height: "3rem",
               cursor: "pointer",
-              width: "8.2rem",
-              marginLeft: "3rem",
+              width: "6.5rem",
+              marginLeft: "2rem",
               borderRadius: "50rem",
-              color: "black",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              color: "#4B5320",
+              backgroundColor: "white",
+              borderColor: "white",
               fontWeight: "bold",
               position: "relative",
-              top: "-6.95rem",
+              top: "-6.4rem",
               fontFamily: "Quicksand",
+              fontSize:"0.8rem",
             }}
           >
             View Account
@@ -293,7 +294,7 @@ function Feed() {
               color: "black",
               position: "fixed",
               top: "11rem",
-              left: "7.6rem",
+              left: "5.4rem",
               right: 0,
             }}
           >
@@ -305,15 +306,15 @@ function Feed() {
               borderRadius: "20px",
               position: "fixed",
               top: "13.3rem",
-              left: "2.3rem",
+              left: "1rem",
               right: 0,
               zIndex: 0,
-              width: "15rem",
+              width: "13rem",
               marginLeft: "1rem",
               fontFamily: "Quicksand",
               fontWeight: "bold",
               color: "white",
-              backgroundColor: "#FADA5E",
+              backgroundColor: "#4B5320",
               border: "2px solid white",
             }}
           >
@@ -342,7 +343,7 @@ function Feed() {
                       className="small-image"
                       style={{
                         "--small-image-border-color": badgess[itemNumber][1],
-                        marginLeft: "-1.6rem",
+                        marginLeft: "-0.5rem",
                       }}
                     ></img>
                     <p style={{ fontSize: "1.1rem", padding: 0, margin: 0 }}>
@@ -354,7 +355,7 @@ function Feed() {
             ))}
           </ul>
         </div>
-        <div style={{ marginTop: "8rem", marginBottom: "3rem" }}>
+        <div style={{ marginTop: "7rem", marginBottom: "3rem" }}>
           {error ? (
             <div style={{ textAlign: "center", marginTop: "10rem" }}>
               <span style={{ fontSize: "2rem" }}>😢</span>{" "}
@@ -385,12 +386,12 @@ function Feed() {
                   } post-card`}
                   style={{
                     cursor: "pointer",
-                    marginLeft: "20rem",
+                    marginLeft: "17rem",
                     marginRight: "-20rem",
-                    backgroundColor: "#8CC4FF",
+                    backgroundColor: "#FF7F7F",
                     borderRadius: "2rem",
                     marginTop: "1rem",
-                    width: "61rem",
+                    width: "50rem",
                   }}
                 >
                   <Card.Body>
@@ -417,7 +418,7 @@ function Feed() {
                               style={{
                                 marginTop: "0.5rem",
                                 marginLeft: "1rem",
-                                color: "#5E5E5E",
+                                color: "#363636",
                                 paddingTop: "1rem",
                                 paddingBottom: "0rem",
                                 fontWeight: "bold",
@@ -430,7 +431,7 @@ function Feed() {
                               style={{
                                 marginTop: "-1.7rem",
                                 marginLeft: "1rem",
-                                color: "#5E5E5E",
+                                color: "#363636",
                                 fontWeight: "bold",
                               }}
                             >
@@ -499,7 +500,7 @@ function Feed() {
                         <p
                           className="card-text"
                           style={{
-                            marginLeft: "38.5rem",
+                            marginLeft: "27.5rem",
                             paddingTop: "0rem",
                             marginTop: "0rem",
                             fontSize: "1rem",
@@ -592,10 +593,10 @@ function Feed() {
             paddingBottom: "3rem",
             height: "7rem",
             width: "8rem",
-            marginLeft: "84.6rem",
+            marginLeft: "70rem",
             borderRadius: "2rem",
-            borderColor: "#FADA5E",
-            backgroundColor: "#FADA5E",
+            borderColor: "#4B5320",
+            backgroundColor: "#4B5320",
           }}
           onClick={togglePopup}
         >

@@ -76,7 +76,7 @@ function Home() {
           style={{
             height: "6rem",
             maxWidth: "100rem",
-            backgroundColor: "#0F52BA",
+            backgroundColor: "#4B5320",
             padding: "1.1rem",
           }}
         >
@@ -85,10 +85,10 @@ function Home() {
             alt="Logo"
             className="rounded-circle"
             style={{
-              border: "1px solid black",
+              border: "1px solid white",
               borderRadius: "50rem",
-              height: "9.7rem",
-              width: "9.7rem",
+              height: "9rem",
+              width: "9rem",
               marginLeft: "2%",
               marginBottom: "-8rem",
               marginTop: "-2rem",
@@ -106,27 +106,27 @@ function Home() {
               fontSize: "3rem",
               paddingRight: "0rem",
               paddingBottom: "0rem",
-              marginLeft: "16rem",
+              marginLeft: "12rem",
               marginBottom: "-5.3rem",
             }}
           >
-            Cancer Connect
+            Palestine Thingy
           </p>
           <Button
             onClick={handleClick5}
             style={{
               cursor: "pointer",
-              marginTop: "0.7rem",
-              marginLeft: "47rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              marginTop: "1.6rem",
+              marginLeft: "39rem",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Home
@@ -137,15 +137,15 @@ function Home() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Donate
@@ -156,15 +156,15 @@ function Home() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             {" "}
@@ -176,15 +176,15 @@ function Home() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Sign in
@@ -195,15 +195,15 @@ function Home() {
               cursor: "pointer",
               marginTop: "0.7rem",
               marginLeft: "1rem",
-              width: "8rem",
-              height: "4rem",
-              backgroundColor: "#FADA5E",
-              borderColor: "#FADA5E",
+              width: "6rem",
+              height: "3rem",
+              backgroundColor: "white",
+              borderColor: "white",
               borderRadius: "10rem",
               fontFamily: "Lato",
               fontWeight: "bold",
-              fontSize: "1.1rem",
-              color: "#633D03",
+              fontSize: "0.9rem",
+              color: "#800000",
             }}
           >
             Sign up
@@ -232,9 +232,9 @@ function Home() {
           fluid="true"
           className="p-3"
           style={{
-            height: "45rem",
+            height: "41rem",
             maxWidth: "100rem",
-            backgroundColor: "#FADA5E",
+            backgroundColor: "#009736",
             padding: "1.1rem",
           }}
         >
@@ -243,10 +243,10 @@ function Home() {
               color: "white",
               paddingLeft: "5rem",
               margin: "0",
-              paddingTop: "1.9rem",
+              paddingTop: "1.2rem",
               fontWeight: "800",
-              fontSize: "3.6rem",
-              marginBottom: "3.5rem",
+              fontSize: "3rem",
+              marginBottom: "2.5rem",
               paddingRight: "5rem",
             }}
           >
@@ -260,7 +260,7 @@ function Home() {
                 margin: "0",
                 paddingTop: "-4rem",
                 fontWeight: "800",
-                fontSize: "2.8rem",
+                fontSize: "2rem",
                 marginBottom: "1rem",
                 paddingRight: "5rem",
               }}
@@ -275,7 +275,7 @@ function Home() {
                 paddingTop: "-4rem",
                 fontWeight: "800",
                 fontSize: "1.3rem",
-                marginBottom: "5rem",
+                marginBottom: "3rem",
                 paddingRight: "5rem",
               }}
             >
@@ -297,7 +297,7 @@ function Home() {
                 margin: "0",
                 paddingTop: "-4rem",
                 fontWeight: "800",
-                fontSize: "2.8rem",
+                fontSize: "2rem",
                 marginBottom: "1rem",
                 paddingRight: "5rem",
               }}
@@ -377,7 +377,7 @@ function Home() {
             <p
               style={{
                 color: "white",
-                paddingLeft: "28rem",
+                paddingLeft: "20rem",
                 margin: "0",
                 paddingTop: "-4rem",
                 fontWeight: "800",
@@ -405,7 +405,7 @@ function Home() {
                   borderBottom: "2px solid white", // Change the color and style of the line here
                 },
               }}
-              style={{ marginLeft: "23rem" }}
+              style={{ marginLeft: "14rem" }}
             />
             <TextField
               id="standard-required"

@@ -45,7 +45,7 @@ function Avatar() {
     return (  
         <>
          <style>{'body { background-color: #FFF0F9; }'}</style>
-         <p style={{color:"#A4D6D3", paddingLeft: "26rem",margin:"0",paddingTop:"1rem",fontWeight:"bold",fontSize:"4rem",marginBottom:"5rem"}}>Choose Your Avatar !</p>
+         <p style={{cursor: "pointer",color:"#A4D6D3", paddingLeft: "22rem",margin:"0",paddingTop:"1rem",fontWeight:"bold",fontSize:"4rem",marginBottom:"5rem"}}>Choose Your Avatar !</p>
          <div class="avatar-container" style = {{display: "flex", alignItems: "center" }}>
             <img src={avatar1} alt="Avatar" class="avatar-image"  onClick={(event,) => handleSubmit(1)} style={{'--avatar-image-border-color': '#4EA4F3'}}></img>
             <img src={avatar2} alt="Avatar" class="avatar-image" onClick={(event) => handleSubmit(2)} style={{'--avatar-image-border-color': '#4EA4F3'}}></img>

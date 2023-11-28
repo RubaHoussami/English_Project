@@ -44,7 +44,7 @@ function Feed() {
     [badge1, "#FF3131", "Earned by those actively battling cancer"],
     [
       badge2,
-      "#A6A6A6",
+      "#38B6FF",
       "Awarded to cancer survivors who've completed their treatment",
     ],
     [
@@ -59,7 +59,7 @@ function Feed() {
     ],
     [
       badge5,
-      "#38B6FF",
+      "#A6A6A6",
       "Received after posting 10 times for active participation ",
     ],
     [

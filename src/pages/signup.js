@@ -353,9 +353,9 @@ function SignUp() {
                     I am a
                   </option>
                   {[
-                    "Cancer Patient",
-                    "Cancer Survivor",
-                    "Family member or friend",
+                    "Live Blogger",
+                    "Viewer",
+                    "Foreign Supporter",
                     "Health Professional",
                   ].map((month, index) => (
                     <option key={index + 1} value={index + 1}>

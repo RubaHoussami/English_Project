@@ -293,7 +293,7 @@ function Feed() {
             style={{
               color: "black",
               position: "fixed",
-              top: "11rem",
+              top: "9rem",
               left: "5.4rem",
               right: 0,
             }}
@@ -305,7 +305,7 @@ function Feed() {
             style={{
               borderRadius: "20px",
               position: "fixed",
-              top: "13.3rem",
+              top: "12rem",
               left: "1rem",
               right: 0,
               zIndex: 0,
@@ -316,6 +316,7 @@ function Feed() {
               color: "white",
               backgroundColor: "#4B5320",
               border: "2px solid white",
+              fontSize:"1.2rem",
             }}
           >
             {[1, 2, 3, 4, 5, 6].map((itemNumber) => (
@@ -346,7 +347,7 @@ function Feed() {
                         marginLeft: "-0.5rem",
                       }}
                     ></img>
-                    <p style={{ fontSize: "1.1rem", padding: 0, margin: 0 }}>
+                    <p style={{ fontSize: "0.9rem", padding: 0, margin: 0 }}>
                       {badgess[itemNumber][2]}
                     </p>
                   </div>

@@ -47,20 +47,20 @@ function Profile() {
   ];
   const Status = [
     "",
-    "Cancer Patient",
-    "Cancer Survivor",
-    "Family or Friend",
+    "Live Blogger",
+    "Viewer",
+    "Foreign Supporter",
     "Health Professional",
   ];
 
   const badgess = [
     [badge1, "Fighter", "#940C0C"],
-    [badge1, "Fighter", "#FF3131"],
-    [badge2, "Survivor", "#A6A6A6"],
-    [badge3, "Supporter", "#FFBD59"],
-    [badge4, "Expert Contributor", "#7ED957"],
-    [badge5, "Milestone", "#38B6FF"],
-    [badge6, "Caregiver", "#8C52FF"],
+    [badge1, "Live Blogger", "#FF3131"],
+    [badge2, "Viewer", "#38B6FF"],
+    [badge3, "Foreign Supporter", "#FFBD59"],
+    [badge4, "Health Professional", "#7ED957"],
+    [badge5, "Milestone", "#A6A6A6"],
+    [badge6, "Ultimate Supporter", "#8C52FF"],
   ];
 
   //calling function that adds likes

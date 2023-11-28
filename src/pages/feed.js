@@ -70,12 +70,12 @@ function Feed() {
   ];
   const badgesName = [
     [""],
-    ["Fighter"],
-    ["Survivor"],
-    ["Supporter"],
-    ["Expert Contributor"],
+    ["Live Blogger"],
+    ["Viewer"],
+    ["Foreign Supporter"],
+    ["Health Professional"],
     ["Milestone"],
-    ["Caregiver"],
+    ["Ultimate Supporter"],
   ];
 
   //declare variables that we will use

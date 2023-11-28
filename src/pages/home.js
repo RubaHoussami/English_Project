@@ -234,7 +234,7 @@ function Home() {
           style={{
             height: "41rem",
             maxWidth: "100rem",
-            backgroundColor: "#009736",
+            backgroundColor: "#4B5320",
             padding: "1.1rem",
           }}
         >

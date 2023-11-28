@@ -283,7 +283,7 @@ function Password() {
               <h1
                 style={{
                   marginTop: "5rem",
-                  marginLeft: "8rem",
+                  marginLeft: "3rem",
                   color: "#EE9626",
                   width: "80rem",
                 }}

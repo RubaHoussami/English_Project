@@ -47,7 +47,7 @@ const DonationPopup = ({
   return (
     <>
       <div className={`popup2 ${isOpen ? "open" : ""}`}>
-        <div className="popup2-content" style={{ height: "35rem" }}>
+        <div className="popup2-content" style={{ height: "30rem" }}>
           <h2 style={{ color: "#0F52BA" }}>Donation Form</h2>
           <TextField
             required
@@ -132,7 +132,7 @@ const DonationPopup = ({
               fontSize: "1.2rem",
               cursor: "pointer",
               fontWeight: "bold",
-              marginTop: "3rem",
+              marginTop: "0.6rem",
               paddingTop: "0.5rem",
               paddingBottom: "1rem",
               marginLeft: "0rem",
@@ -153,7 +153,7 @@ const DonationPopup = ({
             onClick={() => handleDonate(selectedPostID, amount)}
             style={{
               color: "white",
-              marginTop: "1rem",
+              marginTop: "0.6rem",
               marginLeft: "2rem",
               paddingTop: "0.5rem",
               paddingBottom: "1rem",

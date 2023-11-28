@@ -1,9 +1,8 @@
 // Popup.js
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../App.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { badgeClasses } from "@mui/material";
 
 const Popup = ({ onClose, onNewPostCreated, onPopupClosed, username }) => {
   const [newPostTitle, setNewPostTitle] = useState("");
@@ -144,7 +143,8 @@ const Popup = ({ onClose, onNewPostCreated, onPopupClosed, username }) => {
                   marginLeft: "15rem",
                   borderRadius: "2rem",
                   borderColor: "black",
-                  backgroundColor: "#cefad0",
+                  backgroundColor: "white",
+                  color:"black"
                 }}
                 onClick={onClose}
               >
@@ -165,7 +165,8 @@ const Popup = ({ onClose, onNewPostCreated, onPopupClosed, username }) => {
                   marginLeft: "1rem",
                   borderRadius: "2rem",
                   borderColor: "black",
-                  backgroundColor: "#cefad0",
+                  backgroundColor: "white",
+                  color:"black"
                 }}
                 onClick={handlePostSubmit}
               >

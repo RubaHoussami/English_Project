@@ -170,8 +170,8 @@ function Authentication() {
                   marginLeft: "5rem",
                   width: "10rem",
                   height: "3.5rem",
-                  backgroundColor: "#FADA5E",
-                  borderColor: "#FADA5E",
+                  backgroundColor: "white",
+                  borderColor: "white",
                   borderRadius: "10rem",
                   fontFamily: "Lato",
                   fontWeight: "bold",
@@ -190,7 +190,7 @@ function Authentication() {
                 Don't have an account? Create a new one&nbsp;
                 <Link
                   to="/signup"
-                  style={{ color: "#FFD300", textDecoration: "underline" }}
+                  style={{ color: "white", textDecoration: "underline" }}
                 >
                   here
                 </Link>

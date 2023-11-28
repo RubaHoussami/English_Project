@@ -90,7 +90,7 @@ function SignUp() {
 
   return (
     <>
-      <style>{"body { background-color: #FFFFE0; }"}</style>
+      <style>{"body { background-color: #cefad0; }"}</style>
       <Container
         style={{
           display: "flex",
@@ -443,8 +443,8 @@ function SignUp() {
                       marginTop: "3.7rem",
                       width: "12rem",
                       height: "4rem",
-                      backgroundColor: "#FADA5E",
-                      borderColor: "#FADA5E",
+                      backgroundColor: "white",
+                      borderColor: "white",
                       borderRadius: "2.3rem",
                       fontFamily: "Lato",
                       fontWeight: "bold",

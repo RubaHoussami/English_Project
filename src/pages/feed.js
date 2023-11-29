@@ -449,6 +449,7 @@ function Feed() {
                             marginTop: "0.1rem",
                             fontSize: "1.05rem",
                             fontWeight: "bold",
+                            paddingRight:"2rem",
                           }}
                         >
                           {post.body}

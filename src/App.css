@@ -120,7 +120,7 @@ body {
 }
 .section1 {
   width: 50%;
-  background-color: #FF7F7F;
+  background-color: #828282;
   height: 100%; /* Adjust the height of the section */
   z-index: 3;
   display: flex;

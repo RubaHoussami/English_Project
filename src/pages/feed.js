@@ -41,21 +41,21 @@ function Feed() {
   ];
   const badgess = [
     [badge1, "", ""],
-    [badge1, "#FF3131", "Earned by those actively battling cancer"],
+    [badge1, "#FF3131", "Earned by those who post live from Palestine"],
     [
       badge2,
       "#38B6FF",
-      "Awarded to cancer survivors who've completed their treatment",
+      "Awarded to Palestine Unveiled viewers who contribute to the Palestinian cause through learning about it",
     ],
     [
       badge3,
       "#FFBD59",
-      "Granted to friends and family supporting cancer patients",
+      "Granted to those who post outside of Palestine",
     ],
     [
       badge4,
       "#7ED957",
-      "For health professionals and medical experts sharing insights",
+      "Earned by health professionals and medical experts sharing medical insights",
     ],
     [
       badge5,

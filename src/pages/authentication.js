@@ -59,7 +59,7 @@ function Authentication() {
   };
   return (
     <>
-      <style>{"body { background-color: #cefad0; }"}</style>
+      <style>{"body { background-color: #FFE4C4; }"}</style>
       <Container
         style={{
           display: "flex",
@@ -97,13 +97,13 @@ function Authentication() {
                 color: "white",
                 position: "relative",
                 top: "10rem",
-                left: "4.7rem",
+                left: "3.2rem",
                 fontSize: "3.5rem",
                 fontWeight: "700",
                 marginTop: "0.9rem",
               }}
             >
-              Cancer Connect
+              Palestine Unveiled
             </Card.Header>
             <div style={{ margin: "21% auto", width: "20rem" }}>
               <Form.Control

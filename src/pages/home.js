@@ -110,7 +110,7 @@ function Home() {
               marginBottom: "-5.3rem",
             }}
           >
-            Palestine Thingy
+            Palestine Unveiled
           </p>
           <Button
             onClick={handleClick5}
@@ -126,7 +126,7 @@ function Home() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Home
@@ -145,7 +145,7 @@ function Home() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Donate
@@ -164,7 +164,7 @@ function Home() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             {" "}
@@ -184,7 +184,7 @@ function Home() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Sign in
@@ -203,7 +203,7 @@ function Home() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Sign up
@@ -274,19 +274,23 @@ function Home() {
                 margin: "0",
                 paddingTop: "-4rem",
                 fontWeight: "800",
-                fontSize: "1.3rem",
+                fontSize: "1.2rem",
                 marginBottom: "3rem",
                 paddingRight: "5rem",
               }}
             >
-              To create a supportive online community that connects cancer
-              patients and survivors, providing a platform for them to share
-              their experiences, thoughts, and emotions. Through this platform,
-              we aim to foster understanding, empathy, and solidarity among
-              individuals affected by cancer, offering them a sense of belonging
-              and support. Through the power of shared stories, we strive to
-              enhance the mental well-being and overall quality of life of
-              cancer patients and survivors.
+              Our mission is to foster global awareness about the ongoing 
+              challenges faced by the Palestinians. We provide 
+              a platform that transcends biases, serving as a hub for Palestinians to 
+              share their stories, events, and perspectives with the world. By facilitating 
+              the exchange of ideas and information, we aim to break down 
+              barriers and promote a deeper understanding of the Palestinian cause. 
+              Additionally, we recognize the urgent need for aid and support in 
+              the region. Our platform serves as a catalyst for individuals and organizations 
+              to collaborate to initiatives that provide assistance 
+              and relief to Palestine. Through unbiased reporting  
+              and a commitment to human rights, we seek to inspire positive action and solidarity 
+              in the pursuit of justice, peace, and a brighter future for Palestine.
             </p>
           </div>
           <div>
@@ -311,20 +315,17 @@ function Home() {
                 margin: "0",
                 paddingTop: "-4rem",
                 fontWeight: "800",
-                fontSize: "1.3rem",
+                fontSize: "1.2rem",
                 marginBottom: "8rem",
                 paddingRight: "5rem",
               }}
             >
-              A world where no one fights cancer alone. A vibrant online
-              community that empowers cancer patients and survivors, giving them
-              a voice and enabling them to connect with others who truly
-              understand their journey. Through our platform, we aspire to
-              foster hope, resilience, and emotional well-being by encouraging
-              open conversations, sharing valuable resources, and promoting
-              access to support networks. Together, we can make a difference in
-              the lives of those affected by cancer, creating a more inclusive
-              and compassionate world.
+              A world where the global community stands with the people of Palestine and the 
+              Palestinian cause and where Palestinian voices are heard and recognized. By 
+              prioritizing unbiased reporting, community engagement, and upholding human rights, 
+              we strive to inspire positive action. Through unwavering commitment to these principles, 
+              we seek to drive positive change, foster international collaboration, and contribute to 
+              the creation of a more just and equitable world.
             </p>
           </div>
         </Container>

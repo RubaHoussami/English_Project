@@ -176,7 +176,7 @@ function Password() {
               marginBottom: "-5.3rem",
             }}
           >
-            Palestine Thingy
+            Palestine Unveiled
           </p>
           <Button
             onClick={handleClick5}
@@ -192,7 +192,7 @@ function Password() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Home
@@ -211,7 +211,7 @@ function Password() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Donate
@@ -230,7 +230,7 @@ function Password() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             {" "}
@@ -250,7 +250,7 @@ function Password() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Sign in
@@ -269,7 +269,7 @@ function Password() {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontSize: "0.9rem",
-              color: "#800000",
+              color: "#4B5320",
             }}
           >
             Sign up
@@ -284,7 +284,7 @@ function Password() {
                 style={{
                   marginTop: "5rem",
                   marginLeft: "3rem",
-                  color: "#FFFFFF",
+                  color: "white",
                   width: "80rem",
                 }}
               >
@@ -304,7 +304,8 @@ function Password() {
                     marginLeft: "-9rem",
                     width: "14rem",
                     height: "2.8rem",
-                    borderColor: "#FFFFFF",
+                    borderColor: "white",
+                    color: "white",
                     borderRadius: "1.5rem",
                     fontFamily: "Lato",
                     fontSize: "0.95rem",
@@ -385,7 +386,7 @@ function Password() {
                     fontFamily: "Lato",
                     fontWeight: "bold",
                     fontSize: "1rem",
-                    color: "#FF7F7F",
+                    color: "#828282",
                   }}
                 >
                   Submit

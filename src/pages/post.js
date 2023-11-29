@@ -188,7 +188,7 @@ const handleLikeClick = (postId,timestamp,username) => {
             <Card.Body>
               <div className="row">
                 <div className="col-sm-6">
-                  <h6 className="card-title" style={{ marginLeft: "1.3rem", color: "#5E5E5E", fontWeight: "bold", paddingTop: "1rem", marginBottom: "-1rem" }}>{comment.user}</h6>
+                  <h6 className="card-title" style={{ marginLeft: "1.3rem", color: "#363636", fontWeight: "bold", paddingTop: "1rem", marginBottom: "-1rem" }}>{comment.user}</h6>
                   <p className="card-text" style={{ marginLeft: "1.3rem", fontSize: "1rem", fontWeight: "bold" ,paddingBottom:"1rem"}}>{comment.body}</p>
                 </div>
               </div>

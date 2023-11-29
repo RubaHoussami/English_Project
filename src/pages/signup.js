@@ -90,7 +90,7 @@ function SignUp() {
 
   return (
     <>
-      <style>{"body { background-color: #cefad0; }"}</style>
+      <style>{"body { background-color: #FFE4C4; }"}</style>
       <Container
         style={{
           display: "flex",

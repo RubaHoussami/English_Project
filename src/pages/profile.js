@@ -302,11 +302,11 @@ function Profile() {
                   index === posts.length - 1 ? "last-post" : ""
                 }`}
                 style={{
-                  width: "65rem",
+                  width: "50rem",
                   cursor: "pointer",
-                  marginBottom: index === posts.length - 1 ? "3rem" : "39rem",
-                  marginTop: "-38rem",
-                  backgroundColor: "#8CC4FF",
+                  marginBottom: index === posts.length - 1 ? "3rem" : "36rem",
+                  marginTop: "-35rem",
+                  backgroundColor: "#FF7F7F",
                   borderRadius: "30px",
                 }}
               >
@@ -318,7 +318,7 @@ function Profile() {
                         style={{
                           marginTop: "3rem",
                           marginLeft: "1.1rem",
-                          color: "#5E5E5E",
+                          color: "#363636",
                           paddingTop: "1rem",
                           paddingBottom: "0rem",
                           fontWeight: "bold",
@@ -387,7 +387,7 @@ function Profile() {
                       <p
                         className="card-text"
                         style={{
-                          marginLeft: "41rem",
+                          marginLeft: "27rem",
                           paddingTop: "0rem",
                           marginTop: "0rem",
                           fontSize: "1rem",

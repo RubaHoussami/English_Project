@@ -41,7 +41,7 @@ function Feed() {
   ];
   const badgess = [
     [badge1, "", ""],
-    [badge1, "#FF3131", "Earned by those who post live from Palestine"],
+    [badge1, "#FF3131", "Earned by those who post live and exclusive content from Palestine"],
     [
       badge2,
       "#38B6FF",
@@ -50,7 +50,7 @@ function Feed() {
     [
       badge3,
       "#FFBD59",
-      "Granted to those who post outside of Palestine",
+      "Granted to those who post and spread awareness outside of Palestine",
     ],
     [
       badge4,

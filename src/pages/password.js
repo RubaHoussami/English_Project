@@ -386,7 +386,7 @@ function Password() {
                     fontFamily: "Lato",
                     fontWeight: "bold",
                     fontSize: "1rem",
-                    color: "#FF7F7F",
+                    color: "#828282",
                   }}
                 >
                   Submit

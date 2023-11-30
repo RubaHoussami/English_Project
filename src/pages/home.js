@@ -345,13 +345,13 @@ function Home() {
           href="http://www.decolonizepalestine.com/"
           style={{
             color: "white",
-            marginLeft: "5rem",
+            paddingLeft: "5rem",
             margin: "0",
             paddingTop: "-4rem",
             fontWeight: "800",
             fontSize: "1.2rem",
             marginBottom: "1rem",
-            paddingRight: "5rem",
+            paddingRight: "4rem",
           }}
           target="_blank" 
         >
@@ -367,7 +367,7 @@ function Home() {
             fontWeight: "800",
             fontSize: "1.2rem",
             marginBottom: "1rem",
-            paddingRight: "5rem",
+            paddingRight: "4rem",
           }}
           target="_blank" 
         >
@@ -383,7 +383,7 @@ function Home() {
             fontWeight: "800",
             fontSize: "1.2rem",
             marginBottom: "1rem",
-            paddingRight: "5rem",
+            paddingRight: "4rem",
           }}
           target="_blank" 
         >
@@ -399,7 +399,7 @@ function Home() {
             fontWeight: "800",
             fontSize: "1.2rem",
             marginBottom: "1rem",
-            paddingRight: "5rem",
+            paddingRight: "4rem",
           }}
           target="_blank" 
         >

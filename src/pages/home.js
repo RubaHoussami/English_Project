@@ -287,7 +287,7 @@ function Home() {
               barriers and promote a deeper understanding of the Palestinian cause. 
               Additionally, we recognize the urgent need for aid and support in 
               the region. Our platform serves as a catalyst for individuals and organizations 
-              to collaborate to initiatives that provide assistance 
+              to collaborate on initiatives that provide assistance 
               and relief to Palestine. Through unbiased reporting  
               and a commitment to human rights, we seek to inspire positive action and solidarity 
               in the pursuit of justice, peace, and a brighter future for Palestine.

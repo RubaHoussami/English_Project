@@ -245,8 +245,8 @@ function Home() {
               margin: "0",
               paddingTop: "1.2rem",
               fontWeight: "800",
-              fontSize: "3rem",
-              marginBottom: "2.5rem",
+              fontSize: "2.5rem",
+              marginBottom: "1rem",
               paddingRight: "5rem",
             }}
           >
@@ -275,7 +275,7 @@ function Home() {
                 paddingTop: "-4rem",
                 fontWeight: "800",
                 fontSize: "1.2rem",
-                marginBottom: "3rem",
+                marginBottom: "1rem",
                 paddingRight: "5rem",
               }}
             >
@@ -316,7 +316,7 @@ function Home() {
                 paddingTop: "-4rem",
                 fontWeight: "800",
                 fontSize: "1.2rem",
-                marginBottom: "8rem",
+                marginBottom: "1rem",
                 paddingRight: "5rem",
               }}
             >
@@ -328,6 +328,84 @@ function Home() {
               the creation of a more just and equitable world.
             </p>
           </div>
+          <p
+            style={{
+              color: "white",
+              paddingLeft: "5rem",
+              margin: "0",
+              fontWeight: "800",
+              fontSize: "2.5rem",
+              marginBottom: "0rem",
+              paddingRight: "5rem",
+            }}
+          >
+            USEFUL LINKS
+          </p>
+          <a
+          href="http://www.decolonizepalestine.com/"
+          style={{
+            color: "white",
+            marginLeft: "5rem",
+            margin: "0",
+            paddingTop: "-4rem",
+            fontWeight: "800",
+            fontSize: "1.2rem",
+            marginBottom: "1rem",
+            paddingRight: "5rem",
+          }}
+          target="_blank" 
+        >
+        Decolonize Palestine
+        </a>
+        <a
+          href="http://www.aljazeera.com/where/palestine/"
+          style={{
+            color: "white",
+            paddingLeft: "0rem",
+            margin: "0",
+            paddingTop: "-4rem",
+            fontWeight: "800",
+            fontSize: "1.2rem",
+            marginBottom: "1rem",
+            paddingRight: "5rem",
+          }}
+          target="_blank" 
+        >
+          Al Jazeera News
+        </a>
+        <a
+          href="http://www.palmuseum.org/en"
+          style={{
+            color: "white",
+            paddingLeft: "0rem",
+            margin: "0",
+            paddingTop: "-4rem",
+            fontWeight: "800",
+            fontSize: "1.2rem",
+            marginBottom: "1rem",
+            paddingRight: "5rem",
+          }}
+          target="_blank" 
+        >
+          The Palestinian Museum
+        </a>
+        <a
+          href="http://www.palestine-studies.org/"
+          style={{
+            color: "white",
+            paddingLeft: "0rem",
+            margin: "0",
+            paddingTop: "-4rem",
+            fontWeight: "800",
+            fontSize: "1.2rem",
+            marginBottom: "1rem",
+            paddingRight: "5rem",
+          }}
+          target="_blank" 
+        >
+          Institute for Palestinian Studies
+        </a>
+
         </Container>
       </div>
       <footer>

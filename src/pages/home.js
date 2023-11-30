@@ -243,7 +243,7 @@ function Home() {
               color: "white",
               paddingLeft: "5rem",
               margin: "0",
-              paddingTop: "1.2rem",
+              paddingTop: "0rem",
               fontWeight: "800",
               fontSize: "2.5rem",
               marginBottom: "1rem",
